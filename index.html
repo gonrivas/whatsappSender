@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send a whatsapp message to an unscheduled number</title>
+    <link rel="stylesheet" href="/style.css">
+
+
+</head>
+
+<body>
+    <h1>Whatsapp unscheduled phone sender</h1>
+    <label for="phoneNumber"> <strong>Phone Number</strong> </label> <br>
+    <p>Insert the phone you want to message. <br> Ej: 5493245166223</p>
+    <input id="phoneNumber" type="text"><br><br>
+    <button id="sendButton"> <strong>SEND</strong> </button>
+
+
+    <script>
+        const phoneNumber = document.querySelector("#phoneNumber")
+        const sendButton = document.querySelector("#sendButton")
+
+        sendButton.onclick = function () {
+            location.href = "http://wa.me/" + phoneNumber.value;
+        }
+    </script>
+
+</body>
+
+</html>

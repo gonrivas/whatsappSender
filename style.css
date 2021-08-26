@@ -1,0 +1,40 @@
+body {
+    background-color: #55BCA6;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+input {
+    height: 30px;
+    color: dimgray;
+    font-size: 18px;
+    text-align: center;
+}
+
+label {
+    font-size: 22px;
+}
+
+button {
+    height: 70px;
+    width: 70px;
+    color: white;
+    background-color: #55BCA6;
+    border: 2px solid white;
+    border-radius: 60%;
+
+
+}
+
+button:hover {
+    background-color: white;
+    color: #55BCA6;
+}
+
+button:active {
+    background-color: #55BCA6;
+    box-shadow: 0 2px #666;
+    color: white;
+    transform: translateY(2px);
+}
