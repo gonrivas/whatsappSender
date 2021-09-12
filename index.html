@@ -5,29 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Send a whatsapp message to any phone without adding to your contacts. Easy, free and fast. Just type the phone you want to message and it will open in your Whatsapp application" />
+    <meta name="keywords"
+        content="whatsapp, wasap, menssage, mensaje, unscheduled, no agendado, sender, message sender, free message, contact, no contact, contacto, enviar mensaje, phone, phone number, mobile, enviar, mandar, telefono, celular, movil" />
+    <meta name="format-detection" content="telephone=no">
+
     <title>Send a whatsapp message to an unscheduled number</title>
     <link rel="stylesheet" href="/style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1177008897305409"
+        crossorigin="anonymous"></script>
+    <script data-ad-client="ca-pub-1177008897305409" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 
 </head>
 
 <body>
-    <h1>Whatsapp unscheduled phone sender</h1>
-    <label for="phoneNumber"> <strong>Phone Number</strong> </label> <br>
-    <p>Insert the phone you want to message. <br> Ej: 5493245166223</p>
-    <input id="phoneNumber" type="text"><br><br>
-    <button id="sendButton"> <strong>SEND</strong> </button>
+
+    <header>
+        <h1>Whatsapp unscheduled message sender</h1><br><br>
+    </header>
+    <main>
+
+        <label for="phoneNumber"> <strong>Phone Number</strong> </label> <br><br><br><br>
+        <p style="color: dimgray ;">Type the phone number you want to message. <br>
+            Without "+" or "0" Ej: 5493245166223. <br><strong>After pressing "send" you will be redirected <br> to the
+                whatapp application of your phone</strong> </p>
+        <input id="phoneNumber" type="tel" required><br><br><br>
+        <button id="sendButton"> <strong>SEND</strong> </button>
+
+    </main>
+
+    <footer>
+        <p class="foot">This page just simplify existing service provided by Whatsapp® who is owner and has all rights
+            reserved. For rights claims just contact with <a href="mailto:webmaster@wasender.fun">webmaster</a>
+        </p>
+    </footer>
 
 
-    <script>
-        const phoneNumber = document.querySelector("#phoneNumber")
-        const sendButton = document.querySelector("#sendButton")
 
-        sendButton.onclick = function () {
-            location.href = "http://wa.me/" + phoneNumber.value;
-        }
-    </script>
-
+    <script src="/code.js"></script>
 </body>
 
 </html>

@@ -1,15 +1,79 @@
 body {
-    background-color: #55BCA6;
-    color: #ffffff;
+    background-color: #f3f2f4;
+    color: dimgray;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+
+}
+
+header {
+    background-color: #55BCA6;
+    width: 105%;
+    height: 20%;
+    left: -3%;
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    color: white;
+    padding-top: 20px;
+
+}
+
+main {
+    align-items: center;
+    padding-top: 20px;
+    width: 90%;
+    height: 55%;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    overflow: hidden;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
+
+
+footer {
+    height: 40px;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    background-color: #55BCA6;
+    top: 96%;
+    border-radius: 4px;
+
+}
+
+a{
+    color: white;
+}
+.clicks {
+    color: dimgray;
+}
+
+p {
+    font-size: 12px;
+    color: dimgray;
+}
+.foot{
+    color: white;
+    margin: auto;
+    padding-top: 6px;
+    text-align: center;
+    padding-right: 10px;
+
 }
 
 input {
-    height: 30px;
+    height: 50px;
     color: dimgray;
     font-size: 18px;
     text-align: center;
+    border: 2px solid #55BCA6;
+
 }
 
 label {
@@ -17,11 +81,12 @@ label {
 }
 
 button {
-    height: 70px;
-    width: 70px;
+    height: 120px;
+    width: 120px;
     color: white;
+    font-size: 24px;
     background-color: #55BCA6;
-    border: 2px solid white;
+    border: 2px solid #55BCA6;
     border-radius: 60%;
 
 
